@@ -9,6 +9,6 @@ const store = configureStore();
 
 React.render((
   <Provider store={store}>
-    {() => <Router routes={routes(store)} />}
+    <Router routes={routes(store)} />
   </Provider>
 ), targetEl);
